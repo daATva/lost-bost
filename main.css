@@ -82,7 +82,7 @@ ul > li {
     position:absolute;
     top: 52%;
     left: 50%;
-    transform:translate(-50%,-50%); /*расположение по центру*/
+    transform:translate(-50%,-50%); /* расположение по центру */
     width: 1140px;
     height:72%;
 }
@@ -567,9 +567,7 @@ ul > li {
     width: 1105px;
 }
 
-.site-menu{
-    margin-bottom: 115px;
-}
+
 
 .d_sections{
     display: flex;
