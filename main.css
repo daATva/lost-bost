@@ -11,6 +11,7 @@
  --red:#d82727;
  --black:#1b1b1b;
  --titlesFont:'Yanone Kaffeesatz', sans-serif;
+
 }
 
 html,body{
@@ -577,7 +578,7 @@ ul > li {
 }
 
 .site-menu {
-    margin-bottom: 115px;
+    margin-bottom: 110px;
   }
   
   .site-menu__sections {
