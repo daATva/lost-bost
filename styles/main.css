@@ -263,6 +263,7 @@ ul > li {
     display:flex;
     flex-direction: column;
     align-items: flex-start;
+    
 } 
 
  .lined-text__word{
@@ -490,7 +491,7 @@ ul > li {
     display: flex;
   }
   
-  .collections__item {
+  .collections__item { /* Зарубка на текст в хедере */
     min-height: 474px;
     flex: 1;
     overflow: hidden;

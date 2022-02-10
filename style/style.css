@@ -20,7 +20,7 @@ html,body{
 
 .wrapper{
     overflow: hidden;
-    min-width: 1310px;
+    min-width: 1440px;
 }
 
 .container{
@@ -47,16 +47,16 @@ ul > li {
 
 .hero{
     height:100vh;
-    min-height:650px;
+    max-height: 180px;
     background: url("./web-ready/bg/hero.jpg") center center/ cover no-repeat;
     position:relative;
     margin-bottom:130px;
+    
 }
 
 .header{
     width: 1290px;
     margin: 0 auto; /*чтобы выравнивался по центру экрана */
-    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items:center;
@@ -81,183 +81,54 @@ ul > li {
 
 .hero__content{
     position:absolute;
-    top: 52%;
-    left: 50%;
-    transform:translate(-50%,-50%); /* расположение по центру */
+    top: 50%;
+    left: 51%;
+    transform: translate(-50%,-50%);
     width: 1140px;
-    height:72%;
+    height: 101%;
 }
 
-.sidebar{
-    width: 75px;
-    position: absolute;
-    left: 0;
-    top: 0;
-    bottom: 0;
-    background: #212121;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    transition: width .3s;
-
-}
-
-.sidebar__menu{
-    position: absolute;
-    left: -400px;
-    transition: left .3s;
-}
-
-.sidebar--opened .sidebar__menu{
-   left: 0px; 
-   width: 100%;
-   text-align: center;
-   transition-delay: left .3s;
-}
-
-.sidebar__hamburger-icon{
-    width: 29px;
-    height: 29px;
-    fill:var(--yellow);
-}
-
-.sidebar__hamburger{
-    display: block;
-    position: absolute;
-    top: 27px;
-    left: 50%;
-    transform: translate(-50%);
-}
-
-.sidebar--opened{
-    width: 210px;
-    padding: 0 3% 0 4%;
-}
-
-.sidebar--opened .sidebar__hamburger{
-    display: none;
-}
-
-.sidebar--opened .sidebar__header{
-    display: flex; 
-}
-
-.sidebar__header{
-    height: 154px;
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 29px;
-    bottom: 0;
-    display: none; /* Поменял на флекс*/
-    justify-content: center;
-}
-
-.sidebar__close{
-    position: absolute;
-    top: -4px;
-    right: 25px;
-}
-
-.sidebar__close-icon{
-    width: 29px;
-    height: 29px;
-    fill: var(--yellow);
-}
-
-
-.side-menu__item{
-    margin-bottom: 20px;
-}
-
-
-.side-menu__link{
-    font-size: 23px;
-    color: var(--yellow);
-    text-decoration: none;
-    text-transform: uppercase;
-    font-family: var(--titlesFont);
-}
-
-.side-menu__link:hover{
-    color: var(--red);
-}
-
-.sidebar__close-icon:hover{
-    fill: var(--red);
-}
 
 .fade-slider__text-thirts{
     position: absolute;
-    left: 55%;
+    left: 56%;
     top: 51%;
-    transform: translate(-164% ,-52%);
+    transform: translate(-167% ,-52%);
 }
 
-.fade-slider__text-games{
-    position: absolute;
-    top: 71%;
-	bottom: 0;
-	left: 15%;
-	right: 0;
-	margin: auto;
-}
-
-.fade-slider__text-presents{
-    position: absolute;
-	top: 60%;
-	bottom: 0;
-	left: 8%;
-	right: 0;
-	margin: auto;
-}
 
 .fade-slider{
     width: 100%;
     height: 100%;
-    position: relative;
+    display: flex;
 }
 
 .fade-slider__item{
     background:  center center /contain no-repeat;
-    height: 100%; 
-    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%; 
-    opacity: 0;
-    transition: opacity .3s;
+    flex: 1;
+    overflow: hidden;
+    position: relative;
 }
 
-.fade-slider__item--visible{
-    opacity: 1;
-}
+
 
 .fade-slider__item--style-thirts{
-    background-image:url("./web-ready/content/hero/slider_pic_1.png");
-}
-
-
-
-.fade-slider__item--style-presents {
-    background-image:url("./web-ready/content/hero/slider_pic_3.png");
+    background-image:url("./web-ready/decor/header-guys.png");
+    content: "";
+    display: block;
     position: absolute;
-
+    overflow: hidden;
 }
-
-
-.fade-slider__item--style-games{
-    background-image:url("./web-ready/content/hero/slider_pic_2.png");
-}
-
 
 
 .lined-text{
-    font-family:"alegreya" , Arial,sans-serif;
+    font-family:"Alegreya+Sans" , Arial,sans-serif;
     color:#fff;
-    font-size:63px;
+    font-size:30px;
     text-transform:uppercase;
     line-height: 1;
     display:flex;
@@ -269,7 +140,7 @@ ul > li {
     background: #000;
     padding:0 17px 8px ;
     margin-top: -7px;
-    margin-bottom: -7px; 
+    margin-bottom: -2px; 
     white-space: nowrap;
 }
 
@@ -491,12 +362,13 @@ ul > li {
   }
   
   .collections__item {
-    min-height: 474px;
+    min-height: 100px;
     flex: 1;
     overflow: hidden;
     margin-right: 30px;
     background: url('./web-ready/bg/pattern.png') center center / 500px;
     position: relative;
+    
   }
   
   .collections__item:before {
