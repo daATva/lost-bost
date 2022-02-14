@@ -19,7 +19,7 @@
       });
 
       control.closest(".filter__item").classList.add(activeClass);
-
+      
       iso.arrange({
         filter: `.${filterName}`
       })

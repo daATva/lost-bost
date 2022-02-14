@@ -47,26 +47,34 @@
                 <div class="products__price">
                   <div class="products__price-amount">2 000</div>
                 </div>
-                <img src="./web-ready/tshirts/tshirt_07.png" alt="bo-jack tshirt" class="products__img">
+                <div class="shirts">
+                  <ul class="products__shirt">
+                    <li class="fade-slider__shirt products__img fade-slider__shirt-black fade-slider__shirt--visible"></li>
+                    <li class="fade-slider__shirt products__img fade-slider__shirt-gray"></li>
+                    <li class="fade-slider__shirt products__img fade-slider__shirt-green"></li>
+                    <li class="fade-slider__shirt products__img fade-slider__shirt-blue"></li>
+                    <li class="fade-slider__shirt products__img fade-slider__shirt-red"></li>
+                  </ul>
+                  </div>
                 <div class="front-product-content_new_page">
                 <h4 class="front-page-menu__title-Hurley">Футболка Hurley</h4>
                 <h2 class="front-page-menu__title">Rick and Morty</h2>
                 <div class="front-products__price_line"></div>
                   <ul class="front-content__page">
                     <li class="front-content">
-                      <a href="#" class="front-content__text">Состав:Хлопок 100%</a>
+                      <a href="#" class="front-content__text"> Состав:Хлопок 100%</a>
                     </li>
                     <li class="front-content">
-                      <a href="#" class="front-content__text">Сезон:Мульти</a>
+                      <a href="#" class="front-content__text"> Сезон:Мульти</a>
                     </li>
                     <li class="front-content">
-                      <a href="#" class="front-content__text">Цвет:Чёрный</a>
+                      <a href="#" class="front-content__text"> Цвет:Чёрный</a>
                     </li>
                     <li class="front-content">
-                      <a href="#" class="front-content__text">Узор:Рисунки и надпись</a>
+                      <a href="#" class="front-content__text"> Узор:Рисунки и надпись</a>
                     </li>
                     <li class="front-content">
-                      <a href="#" class="front-content__text">Страна производства:Россия</a>
+                      <a href="#" class="front-content__text"> Страна производства:Россия</a>
                     </li>
                     <li class="front-content">
                       <a href="#" class="front-content__text">Артикул:IasosyBibY</a>
@@ -74,31 +82,49 @@
                   </ul>
                   <div class="front-products__price_line front-second__price_line "></div>
                   <ul class="squad">
-                    <li class="squad_item squad_item--active squad_item--passive" >
+                    <li class="squad_item squad_item--passive squad_item--non-active"  >
                       <a href="#" class="squad__link">XXS</a>
                     </li>
-                    <li class="squad_item squad_item--passive" >
-                      <a href="#" class="squad__link ">XS</a>
+                    <li class="squad_item squad_item--passive squad_item--non-active" >
+                      <a href="#" data-filter="XS" class="squad__link ">XS</a>
                     </li>
                     <li class="squad_item squad_item--passive">
-                      <a href="#" class="squad__link">S</a>
+                      <a href="#" data-filter="S" class="squad__link">S</a>
                     </li>
                     <li class="squad_item squad_item--passive">
-                      <a href="#" class="squad__link">M</a>
+                      <a href="#" data-filter="M" class="squad__link">M</a>
                     </li>
                     <li class="squad_item squad_item--passive">
-                      <a href="#" class="squad__link">L</a>
+                      <a href="#" data-filter="L" class="squad__link">L</a>
                     </li>
                     <li class="squad_item squad_item--passive">
-                      <a href="#" class="squad__link">XL</a>
+                      <a href="#" data-filter="XL" class="squad__link">XL</a>
                     </li>
                     <li class="squad_item squad_item--passive">
-                      <a href="#" class="squad__link">2XL</a>
+                      <a href="#" data-filter="XL" class="squad__link">2XL</a>
                     </li>
-                    <li class="squad_item squad_item--passive">
-                      <a href="#" class="squad__link">3XL</a>
+                    <li class="squad_item squad_item--passive squad_item--non-active">
+                      <a href="#"  class="squad__link">3XL</a>
                     </li>
                   </ul>
+                  <ul class="circle">
+                    <li class="circle_item  circle__black circle_item--active ">
+                      <a href="#" data-filter="black" class="circle__link "></a>
+                    </li>
+                    <li class="circle_item  circle__gray">
+                      <a href="#" data-filter="white" class="circle__link "></a>
+                    </li>
+                    <li class="circle_item  circle__green">
+                      <a href="#" data-filter="green" class="circle__link"></a>
+                    </li>
+                    <li class="circle_item  circle__blue">
+                      <a href="#" data-filter="blue" class="circle__link"></a>
+                    </li>
+                    <li class="circle_item  circle__red">
+                      <a href="#" data-filter="red" class="circle__link"></a>
+                    </li>
+                  </ul>
+                  <div class="btn-second btn-life_style">Купить</div>
                 </div>
                
               </div>
@@ -253,14 +279,17 @@
                             </a>
                         </li>
                         <li class="socials__item">
-                            <a href="#" class="socials__link">
+                          <a href="#"  class="socials__link">
                                 <svg class="socials__icon">
+                                  <a href="https://www.instagram.com/beedwer/ " target="_blank">
                                     <use xlink:href="./web-ready/icons-sprite.svg#insta"> </use>
+                                  </a>
                                 </svg>
-                            </a>
+                          </a>
+
                         </li>
                         <li class="socials__item">
-                            <a href="#" class="socials__link">
+                            <a href="#"  class="socials__link">
                                 <svg class="socials__icon">
                                     <use xlink:href="./web-ready/icons-sprite.svg#pin"> </use>
                                 </svg>
@@ -276,5 +305,8 @@
 
  <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
  <script src="./scripts/filter.js"></script>
+ <script src="./scripts/filter-squad.js"></script>
+ <script src="./scripts/filter-circle.js"></script>
+ <script src="./scripts/shirt-slider.js"></script>
 </body>
 </html>
