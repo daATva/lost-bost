@@ -586,86 +586,13 @@ ul > li {
     color: #fff;
 }
 
-.collections {
-    margin-bottom: 135px;
-  }
   
-  .collections__list {
-    display: flex;
-  }
   
-  .collections__item {
-    min-height: 100px;
-    flex: 1;
-    overflow: hidden;
-    margin-right: 30px;
-    background: url('./web-ready/bg/pattern.png') center center / 500px;
-    position: relative;
-    
-  }
-  
-  .collections__item:before {
-    content: "";
-    display: block;
-    position: absolute;
-    height: 176%;
-    width: 60%;
-    top: -17%;
-    left: -18%;
-    background: center center / contain no-repeat;
-  }
-  
-  .collections__item--type-guys:before {
-    background-image: url('./web-ready/collections/collection_man.png');
-  }
-  
-  .collections__item--type-girls:before {
-    background-image: url('./web-ready/collections/collection_woman.png');
-    top: -31%;
-    width: 80%;
-    left: -25%;
-  }
-  
-  .collections__link {
-    display: block;
-    padding: 74px 13% 74px 44%;
-    text-decoration: none;
-    color: inherit;
-    font-size: 15px;
-    position: relative;
-    height: 100%;
-    box-sizing: border-box;
-  }
-  
-  .collections__link:hover .btn {
-    background: var(--red);
-    color: #fff;
-  }
-  
-  .collections__title {
-    font-family: var(--titlesFont);
-    font-size: 70px;
-    font-weight: bold;
-    line-height: 1;
-    text-transform: uppercase;
-    margin-top: 0;
-    margin-bottom: 11px;
-  }
-  
-  .collections__item:last-child {
-    margin-right: 0;
-  }
-  
-  .collections__desc {
-    margin-bottom: 28px;
-  }
-
-.collections{
-    margin-bottom: 85px;
-}
+ 
 
 .footer{
     margin-bottom: 130px;
+    margin-top: 0px;
 }
 
 
@@ -801,9 +728,33 @@ ul > li {
 width: 100%;
 height: 100%;
 display: block;
+
 }
-/* 
-.information{
-  margin-top: -120px;
-  margin-bottom: 70px;
-} */
+
+.tabs__back-yellow{
+  position: relative;
+  margin-top: -30px;
+  width: 1090px;
+  height: 297px;
+  background: #fcf5e6;
+  margin:0px auto;
+  margin-bottom:85px;
+  border: solid 6px var(--yellow);
+}
+
+.socials__item{
+  width: 100%;
+  height: 100%;
+}
+
+.tabs__images-shirt{
+  margin: 20px 0px  ;
+}
+
+.socials__icon-shirt{
+  width: 25px;
+  height: 25px;
+  padding-bottom:25px;
+  margin-left: 34px;
+  
+}
