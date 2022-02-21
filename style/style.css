@@ -276,7 +276,7 @@ ul > li {
 
   .front-products__price_line{
     width: 569px;
-    border: solid 1px #737373;
+    border: solid 1px #e5dece;
     margin-top: 11%;
     margin-bottom: 15px;
   }
@@ -728,7 +728,17 @@ ul > li {
 width: 100%;
 height: 100%;
 display: block;
+}
 
+.socials__icon-shirt{
+  width: 25px;
+  height: 25px;
+  padding-bottom:15px;
+  margin-left: 34px;
+}
+.socials__item{
+  width:100%;
+  height: 100%;
 }
 
 .tabs__back-yellow{
@@ -742,19 +752,90 @@ display: block;
   border: solid 6px var(--yellow);
 }
 
-.socials__item{
-  width: 100%;
-  height: 100%;
-}
-
 .tabs__images-shirt{
-  margin: 20px 0px  ;
+  margin: 40px 20px 0px  ;
+  position: relative;
 }
 
-.socials__icon-shirt{
-  width: 25px;
-  height: 25px;
-  padding-bottom:25px;
-  margin-left: 34px;
-  
+.tabs__item-shirt__text{
+  text-decoration: none;
+  padding-bottom:0px;
+  margin-left: 90px;
+  position: absolute;
+  top: 0px;
+  color: var(--black);
+  font-size: 13px;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 15px;
+  text-transform: none;
+  margin-right: 0px;
+}
+
+.tabs__item-shirt__text-list{
+  position: relative;
+  margin-bottom: 23px;
+  margin-left: 0px;
+}
+
+.tabs__item-shirt__text-list:nth-child(1){
+  position: relative;
+  margin-top: 2px;
+}
+
+.tabs__item-shirt__text-list:nth-child(2){
+  position: relative;
+  margin-top: 28px;
+}
+
+.tabs__item-shirt__text-list:nth-child(3){
+  position: relative;
+  margin-top: 0px;
+}
+
+.tabs__item-shirt__text-list:nth-child(4){
+  position: relative;
+  margin-top: -7px;
+}
+
+
+.tabs__item-shirt__text-list:nth-child(5){
+  position: relative;
+  margin-top: 30px;
+}
+
+.tabs__item-shirt__textishe-list {
+  position: absolute;
+  left: 400px;
+  color: var(--black);
+  font-size: 13px;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 15px;
+  text-transform: none;
+  margin-right: 0px;
+}
+
+.tabs__line{
+  position: relative;
+  width: 296px;
+  border: solid 1px #e5dece;
+  transform: rotate(90deg);
+  top: -124px;
+  left: 200px;
+}
+
+.shirt{
+  position: relative;
+  margin-top: -30px;
+  width: 1090px;
+  height: 454px;
+  background: #fcf5e6;
+  margin:0px auto;
+  margin-bottom:85px;
+  border: solid 6px var(--yellow);
+}
+
+.shirt__image{
+  background-image: url("./web-ready/tshirts/tshirt_000");
 }
