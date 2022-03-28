@@ -25,7 +25,7 @@ html,body{
 
 .container{
     margin: 0 auto;
-    width: 1300px;
+    width: 1120px;
 }
 
 body{
@@ -345,7 +345,7 @@ ul > li {
   .squad_item--active .squad__link{
     color:#1b1b1b;
     background: var(--yellow);
-    border: 3px solid #e6dfcf;
+    border: 1px solid #e6dfcf;
   }
   
   /* .squad__link:hover{
@@ -353,7 +353,7 @@ ul > li {
   } */
 
   .squad_item--passive .squad__link:hover{
-    border: 3px solid var(--yellow);
+    border: 2px solid var(--yellow);
   }
  
   .squad_item--non-active .squad__link{
@@ -741,101 +741,278 @@ display: block;
   height: 100%;
 }
 
-.tabs__back-yellow{
-  position: relative;
-  margin-top: -30px;
-  width: 1090px;
-  height: 297px;
-  background: #fcf5e6;
-  margin:0px auto;
-  margin-bottom:85px;
-  border: solid 6px var(--yellow);
+
+
+/* .fade-slider 1100 452 */
+
+.description {
+  opacity: 1;
+  margin-bottom: 50px;
+}
+.container {
+  max-height:1100px;
+
+}
+.description__content {
+  background:var( --yellow);
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
 }
 
-.tabs__images-shirt{
-  margin: 40px 20px 0px  ;
-  position: relative;
+.description__body{
+  background: var(--yellow);
+  
 }
 
-.tabs__item-shirt__text{
-  text-decoration: none;
-  padding-bottom:0px;
-  margin-left: 90px;
-  position: absolute;
-  top: 0px;
-  color: var(--black);
+.description__bg-white{
+  background: #fcf5ef;
+  margin:10px;
+  display:flex;
+  min-width: 1100px;
+  background-color: #fcf5e6;
+
+}
+.description__column__left {
+
+}
+.left__column {
+  display: flex;
+  align-items: center;
+}
+.left__image {
+}
+
+.image__spisok {
+  padding: 35px 0px 20px 0px;
+
+}
+.image__left__item {
+}
+
+.washing__icon{
+  width: 25px;
+  height: 25px;
+  padding-bottom:15px;
+  margin-left: 34px;
+}
+.left__text {
+}
+
+.text__spisok {
+  padding: 50px 50px 40px 10px;
+  border-right:1px solid #939393;
+
+}
+
+.text__spisok p{
+  margin: -1px 0px -9px 0px;
+
+}
+
+.text__lefft__text  {
+  font-size: 14px;
+  padding: 1px 0px 20px 10px;
+
+}
+
+.text__lefft__text:nth-child(2){
+  padding: 8px 0px 20px 10px ;
+}
+
+.text__lefft__text:last-child{
+  padding: 5px 0px 20px 10px;
+}
+
+.discription__column__right{
+  padding: 0px 0px 0px 0px;
+}
+
+.discription__text p{
+  padding: -5px 0px 0px 0px ;
+}
+.discription__column__right{
+  padding: 47px 0px 0px 47px;
+}
+
+.discription__text{
+
+  font-size: 14px;
+  line-height: 20px;
+  color: #1b1b1b;
+}
+
+.discription__text p{
+ margin: -2px 0px -1px 0px;
+}
+
+.tabel__size {
+  margin-bottom:50px ;
+}
+.containers {
+  max-height: 453px;
+
+}
+.tabel__size__content {
+  display: flex;
+  justify-content: center;
+  margin: 0px 0px 0px 10px;
+}
+.tabel__size__body {
+  background-color: rgba(252,245,230,0.0);
+  width: 1100px;
+  height: 453px;
+  background-color: #fcf5e6;
+  border: 10px solid #ffc92f;
+  display: flex;
+
+}
+.tabel__size-left__side {
+}
+.tabel__size__left__column {
+  display: inline-flex;
+  border-right:1px solid #e8e2d2;
+  flex-direction: column;
+  padding: 0px 0px 37px 0px;
+}
+.tabel__size__shirt {
+  padding: 50px 30px 30px 50px;
+}
+.tabel__size__subtext__shirt {
+}
+.subtext__shirt {
+  padding: 0px 40px 0px 57px;
+}
+.subtext__item {
   font-size: 13px;
-  text-decoration: none;
-  font-family: 'Roboto', sans-serif;
-  margin-bottom: 15px;
-  text-transform: none;
-  margin-right: 0px;
+  color: #1b1b1b;
+  line-height: 1.2;
+  line-height: 22px;
 }
 
-.tabs__item-shirt__text-list{
-  position: relative;
-  margin-bottom: 23px;
-  margin-left: 0px;
+.subtext__item p {
+  margin: -4px 0px 1px 0px;
 }
 
-.tabs__item-shirt__text-list:nth-child(1){
-  position: relative;
-  margin-top: 2px;
+.table__size-righ__side {
+
+}
+.table__cell {
+
+}
+.table__column {
+
+}
+.table__column-name {
+display: flex;
+}
+.name__list {
+
+}
+.list__name {
+  font-family: Roboto;
+  font-size: 12.3px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #1b1b1b;
+  padding: 13.2px 30px 13px 15px;
+  border: solid 1px #e8e2d2;
+
 }
 
-.tabs__item-shirt__text-list:nth-child(2){
-  position: relative;
-  margin-top: 28px;
+
+
+.figure-list{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 13.2px 22.75px 13px 17.75px;
+  text-align: center;
 }
 
-.tabs__item-shirt__text-list:nth-child(3){
-  position: relative;
-  margin-top: 0px;
+.bold-list {
+  font-family: Roboto;
+  font-size: 14.1px;
+  line-height: 20px;
+  font-weight: 700;
+  color: #1b1b1b;
+  padding: 18px 20px 18px 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.tabs__item-shirt__text-list:nth-child(4){
-  position: relative;
-  margin-top: -7px;
+.hide-list{
+  color:#fcf5e6;
 }
 
+.delivery {
+  margin-bottom: 50px;
+}
+.container {
 
-.tabs__item-shirt__text-list:nth-child(5){
-  position: relative;
-  margin-top: 30px;
+}
+.delivery__content {
+  background-color: rgba(252,245,230,0.0);
+  width: 1101px;
+  height: 261px;
+  background-color: #fcf5e6;
+  border: 10px solid #ffc92f;
+  display: flex;
 }
 
-.tabs__item-shirt__textishe-list {
-  position: absolute;
-  left: 400px;
-  color: var(--black);
-  font-size: 13px;
-  text-decoration: none;
-  font-family: 'Roboto', sans-serif;
-  margin-bottom: 15px;
-  text-transform: none;
-  margin-right: 0px;
+.delivery__body {
+  display: flex;
 }
 
-.tabs__line{
-  position: relative;
-  width: 296px;
-  border: solid 1px #e5dece;
-  transform: rotate(90deg);
-  top: -124px;
-  left: 200px;
+.delivery__left {
+  padding: 52px 70px 56px 85px;
+  border-right:1px solid #e8e2d2;
+
 }
 
-.shirt{
-  position: relative;
-  margin-top: -30px;
-  width: 1090px;
-  height: 454px;
-  background: #fcf5e6;
-  margin:0px auto;
-  margin-bottom:85px;
-  border: solid 6px var(--yellow);
+.delivery__right {
+  display: flex;
 }
 
-.shirt__image{
-  background-image: url("./web-ready/tshirts/tshirt_000");
+.right__text {
+  padding: 57px 65px 75px 72px;
+  font-size: 14.1px;
+  line-height: 20px;
+  color: #1b1b1b;
+  line-height: 26px;
+}
+
+.right__text p{
+  margin: -5px 0px 0px 0px;
+}
+
+.brend {
+}
+.container {
+}
+.brend__content {
+  background-color: rgba(252,245,230,0.0);
+  width: 1101px;
+  height: 261px;
+  background-color: #fcf5e6;
+  border: 10px solid #ffc92f;
+  display: flex;
+
+}
+.brend__body {
+  display: flex;
+
+}
+.brend__left {
+  padding: 67px 45px 56px 85px;
+  border-right:1px solid #e8e2d2;
+}
+
+.brend__text {
+  padding: 57px 65px 75px 45px;
+  font-size: 14.1px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #1b1b1b;
 }
