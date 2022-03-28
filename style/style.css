@@ -915,7 +915,7 @@ display: flex;
   line-height: 20px;
   font-weight: 400;
   color: #1b1b1b;
-  padding: 13.2px 30px 13px 15px;
+  padding: 13px 30px 13px 15px;
   border: solid 1px #e8e2d2;
 
 }
@@ -926,7 +926,7 @@ display: flex;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 13.2px 22.75px 13px 17.75px;
+  padding: 13px 22.5px 13px 17.75px;
   text-align: center;
 }
 
