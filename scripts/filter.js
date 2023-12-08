@@ -1,9 +1,6 @@
 (function() {
   const elem = document.querySelector(".products__list");
-  const iso = new Isotope(elem, {
-    itemSelector: ".products__item",
-    filter: '.popular'
-  });
+
 
   const controlls = document.querySelectorAll(".filter__link");
   const activeClass = "filter__item--active";
@@ -20,9 +17,6 @@
 
       control.closest(".filter__item").classList.add(activeClass);
 
-      iso.arrange({
-        filter: `.${filterName}`
-      })
     });
   });
 })();
